@@ -1,0 +1,49 @@
+#sect1 {
+  height: 100vh;
+  color: #fff;
+  background-image: url("./../assets/images/background.png");
+  background-size: 95% ;
+  background-size: cover;
+}
+.head{
+  position: absolute;
+  float: right;
+}
+.quiz-box{
+  background-color: white;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  border-radius: 24px;
+}
+h1{
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  font-size: 36px;
+}
+
+.quiz-box h3{
+   color: #2F527B;
+}
+.answer-box {
+  margin-top: 52px;
+  border-radius: 12px;
+  padding: 17px;
+  border: 2px solid rgba(96, 102, 208, 0.7);
+  width: 450px;
+  height: 70px;
+  color: #6066D0;
+  font-size: 20px;
+}
+#content {
+  margin-left: auto ;
+  margin-right: auto ;
+}
+.quiz-container{
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+
+}
