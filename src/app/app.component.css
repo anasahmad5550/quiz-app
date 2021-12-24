@@ -35,9 +35,20 @@ h1{
   color: #6066D0;
   font-size: 20px;
 }
-#content {
+.content {
   margin-left: auto ;
   margin-right: auto ;
+}
+.btn-next{
+  background-color: #F9A826;
+  border-radius: 12px;
+  border-color: #F9A826;
+  width: 116px;
+  height: 56px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 32px;
+  font-weight: 700;
 }
 .quiz-container{
   /* Fallback for browsers do NOT support vh unit */
@@ -46,4 +57,30 @@ h1{
   display: flex;
   align-items: center;
 
+}
+.result-heading{
+  font-size: 48px;
+  color:#1D355D;
+  font-weight: 700;
+}
+.score{
+  font-size: 36px;
+  color: #1D355D;
+}
+.btn-tryAgain{
+  background-color: transparent;
+  color: #1D355D;
+  border: 2px solid #1D355D;
+  width: 209px;
+  height: 62px;
+  border-radius: 12px;
+}
+.result{
+  margin-top: 42px;
+  height: 128px;
+  width: 328px;
+}
+.country-flag{
+  height: 74px;
+  width: 110px;
 }
