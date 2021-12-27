@@ -24,7 +24,7 @@
                   *ngFor="let country of this.random_countries let i = index"
                   (click)="checkAnswer(country, myAnswer)"
                   #myAnswer
-                  ng-disabled="answerSelect"
+                  appRendererHighlight
                   >
                     <div class="col-1">
                       {{i}}

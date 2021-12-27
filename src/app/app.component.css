@@ -35,6 +35,27 @@ h1{
   color: #6066D0;
   font-size: 20px;
 }
+
+.answer-box-correct {
+  margin-top: 52px;
+  border-radius: 12px;
+  padding: 17px;
+  border: 2px solid transparent;
+  width: 450px;
+  height: 70px;
+  color: #60BF88;
+  font-size: 20px;
+}
+.answer-box-wrong {
+  margin-top: 52px;
+  border-radius: 12px;
+  padding: 17px;
+  border: 2px solid transparent;
+  width: 450px;
+  height: 70px;
+  color: #EA8282;
+  font-size: 20px;
+}
 .content {
   margin-left: auto ;
   margin-right: auto ;
