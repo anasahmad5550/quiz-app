@@ -1,0 +1,7 @@
+<div *ngIf="questionNumber % 2 === 0 ; else capitalQuestion">
+  <img src="{{ flag }}" alt="" class="country-flag offset-2">
+  <h3 class="offset-2">Which country does this flag belong to? </h3>
+</div>
+<ng-template #capitalQuestion>
+  <h3 class="offset-2">{{ capital }} is the capital of</h3>
+</ng-template>

@@ -1,0 +1,13 @@
+.country-flag{
+  height: 74px;
+  width: 110px;
+}
+h1{
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  font-size: 36px;
+}
+h3{
+  color: #2F527B;
+}

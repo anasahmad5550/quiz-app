@@ -1,0 +1,40 @@
+<div class="row quiz-container">
+  <div class="offset-4 col-4">
+    <div class="row">
+      <div class="col-8">
+        <h1>COUNTRY QUIZ</h1>
+      </div>
+      <div class="col"
+      *ngIf="!gameOver">
+        <img src="./../assets/images/undraw_adventure_4hum 1.svg" alt="" class="head">
+      </div>
+    </div>
+      <div class="quiz-box">
+        <div class="col">
+          <div *ngIf="!gameOver; else GameResult">
+            <app-question
+            [questionNumber] = "index"
+            [capital]="capital"
+            [flag]="flag"></app-question>
+            <app-answer-list
+            #allAnswers
+            [countriesChoices]="random_countries"
+            [answerSelected]="answerSelect"
+            (country)="checkAnswer($event)"
+            [answer]="answer"
+            ></app-answer-list>
+            <div class="row justify-content-center"
+            *ngIf="answerSelect">
+              <button class="btn btn-success btn-next" type="submit" (click)="nextQuestion()">Next</button>
+            </div>
+          </div>
+          <ng-template #GameResult>
+            <app-game-result
+            (tryAgain)="tryAgain()"
+            [gamePoints]= "points"
+            ></app-game-result>
+          </ng-template>
+        </div>
+      </div>
+  </div>
+</div>

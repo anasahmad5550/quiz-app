@@ -1,0 +1,35 @@
+.quiz-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.quiz-box{
+  background-color: white;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  border-radius: 24px;
+}
+.quiz-box h3{
+  color: #2F527B;
+}
+.btn-next{
+  background-color: #F9A826;
+  border-radius: 12px;
+  border-color: #F9A826;
+  width: 116px;
+  height: 56px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 32px;
+  font-weight: 700;
+}
+.head{
+  position: absolute;
+  float: right;
+}
+h1{
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  font-size: 36px;
+}
