@@ -1,0 +1,25 @@
+.btn-tryAgain{
+  background-color: transparent;
+  color: #1D355D;
+  border: 2px solid #1D355D;
+  width: 209px;
+  height: 62px;
+  border-radius: 12px;
+}
+.result-heading{
+  font-size: 48px;
+  color:#1D355D;
+  font-weight: 700;
+}
+.score{
+  font-size: 36px;
+  color: #1D355D;
+}
+.result{
+  margin-top: 42px;
+  height: 128px;
+  width: 328px;
+}
+b{
+  color: #60BF88;
+}

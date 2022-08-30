@@ -1,0 +1,14 @@
+<div class="content"
+[ngClass]="getClass(country)"
+*ngFor="let country of countriesChoices let i = index"
+(click)="checkAns(country, myAnswer)"
+#myAnswer
+#ans
+appRendererHighlight
+[selected]="answerSelected"
+>
+  <app-answer
+    [country]="country"
+    [questionNumber]="i">
+  </app-answer>
+</div>
